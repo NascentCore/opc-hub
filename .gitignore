@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Package manager logs & store (optional local store)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Turborepo
+.turbo
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Testing & coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Playwright (apps/web e2e)
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Vercel
+.vercel
+
+# Debug
+*.log
+*.orig
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / editors
+.idea/
+*.swp
+*.swo

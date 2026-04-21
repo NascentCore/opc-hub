@@ -1,0 +1,11 @@
+# Default: normalize line endings on checkout/commit (cross‑platform teams).
+* text=auto eol=lf
+
+# Windows scripts keep CRLF when present.
+*.{cmd,[bB][aA][tT]} text eol=crlf
+
+# Binary assets / no line conversion
+*.{ico,png,jpg,jpeg,gif,webp,avif,woff,woff2,ttf,eot,otf,mp3,mp4,webm,pdf,zip} binary
+
+# Lockfile: treat as text, mark as generated for language stats (e.g. GitHub)
+pnpm-lock.yaml linguist-generated=true diff=text
